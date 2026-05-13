@@ -1,4 +1,5 @@
 
+# Environment
 # Python venv for python scripts
 export PATH="/Users/kristin/Documents/python scripts/venv/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
