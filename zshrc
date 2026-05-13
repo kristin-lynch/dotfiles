@@ -16,7 +16,7 @@ pw = (random.choice(string.ascii_uppercase) +
       ''.join(random.choices(string.digits, k=4)) +
       'a')
 print(pw)
-" | pbcopy && echo "Password copied to clipboard!"
+" | tr -d '\n' | pbcopy && echo "Password copied to clipboard!"
 }
 
 # Secure password: alphanumeric + special, at least one uppercase (default 16 chars)
